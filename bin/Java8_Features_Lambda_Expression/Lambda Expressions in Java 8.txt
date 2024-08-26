@@ -1,0 +1,21 @@
+Lambda Expressions in Java 8
+
+Lambda expressions offer a concise way to define anonymous methods within a single line of code. 
+They are particularly useful when working with functional interfaces, which are interfaces that have exactly one abstract method.
+
+Key Points:
+
+Syntax: A lambda expression consists of three parts:
+Parameters (optional): Enclosed in parentheses, separated by commas.
+Arrow (->): Separates the parameters from the body.
+Body: The code to be executed, which can be a single expression or a code block enclosed in curly braces ({}).
+Benefits:
+
+Conciseness: Lambda expressions can simplify code compared to traditional anonymous classes.
+Improved Readability: They can enhance readability for short, well-defined functionalities.
+Functional Programming: They enable a more functional programming style in Java.
+Common Use Cases:
+
+Collections Framework: Filtering, sorting, iterating, and transforming elements in collections.
+Callbacks: Passing functionality as arguments to methods.
+Event Handling: Defining event handlers succinctly.
